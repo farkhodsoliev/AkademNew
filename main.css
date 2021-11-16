@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: 2px dotted #DE2E54;
+    outline-offset: 2px;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: Rubik;
+    font-weight: 400;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+/* NAVBAR HEADER */
+
+.image_servis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.servis_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+}
+.servis_navbar a{
+    text-decoration: none;
+    padding: 0px 10px;
+       
+}
+.ul_list{
+                     
+    color:black;
+    font-weight: bold;
+
+}
+.border{
+    border-bottom: 3px solid #FF7500;
+}
+.ul_list_a{
+    color: black;
+    font-weight: bold;
+}
+.button_navbar{
+    background-color: #FF7500;
+    border-radius: 4px;
+    margin: 0px 32px;
+    padding: 15px 20px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.button_navbar:active{
+    opacity: 0.6;
+}
+.button_navbar a{
+    color: #fff;
+}
+
+
+
+
+/* Main seyit  */
+
+.continer_backraund{
+    
+    background-color: black;
+}
+.main_seit_img {
+    display: flex;
+    align-items: center;
+}
+
+.hero_text{
+    color: #fff;
+}
+.hero_text hr{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+    position: relative;
+    right: 150px;
+}
+.hero_text_h1{
+    width: 339px;
+    height: 96px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+}
+.hero_text_p{
+    width: 387px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px 0px 50px 0px;
+}
+.hero_button{
+    background-color: #FF7500;
+    border-radius: 4px;
+    margin: 20px 0px 0px 0px;
+    padding: 15px 25px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.hero_button:active{
+    opacity: 0.6;
+}
+
+
+.hero_img{
+    width: 510px;
+    height: 510px;
+    border-radius: 8px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    border-radius: 15px;
+}
+.servis_book_hero{
+    margin: 210px 0px 0px 0px;
+}
+.icons_servis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero_hr{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+    position: relative;
+    right: 520px;
+}
+.akadem_book{
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 120%;
+    color: #000000;
+}
+.servces_blocE1{
+    width: 340px;
+    height: 113px;
+    margin: 32px 0px;
+}
+.servis_book_teg{
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 12px 0px;
+
+}
+.servis_book_p{
+    color: #000;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 12px 0px;
+}
+/* book imge  */
+
+.container_book{
+    display: flex;
+    align-items: center;
+}
