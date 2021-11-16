@@ -47,11 +47,12 @@ body{
     padding: 0px 10px;
        
 }
-.ul_list{
-                     
+.ul_list{                   
     color:black;
     font-weight: bold;
-
+}
+.ul_list:hover{
+    color: #FF7500;
 }
 .border{
     border-bottom: 3px solid #FF7500;
@@ -59,6 +60,9 @@ body{
 .ul_list_a{
     color: black;
     font-weight: bold;
+}
+.ul_list_a:hover{
+    color: #FF7500;
 }
 .button_navbar{
     background-color: #FF7500;
