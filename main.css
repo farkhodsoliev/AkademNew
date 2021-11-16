@@ -184,6 +184,91 @@ body{
 /* book imge  */
 
 .container_book{
+    width: 1100px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    border-radius: 12px;
+}
+.book_hero{
+    margin: 300px 0px 0px 90px;
+}
+
+.book_hero_h2{
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+}
+.book_hero_p{
+    width: 440px;
+    height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 12px 0px 40px 0px;
+}
+.img_book img{
+    width: 440px;
+    height: 440px;
+    border-radius: 12px;
+    position: relative;
+    right: 64px;
+    bottom: 64px;
+}
+.button_service{
+    background-color: #FF7500;
+    border-radius: 4px;
+    padding: 15px 25px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+}
+.button_service:active{
+    opacity: 0.6;
+}
+
+
+
+/* PNJ AKADEMNASHIR FUTER */
+
+.akademnashir_pnj{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+.icon_servar{
+    display: flex;
+    list-style:none;
+}
+
+.icon_servar img{
+    width: 24px;
+    height: 24px; 
+    margin: 16px;
+}
+.ul_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul_list_E11{
+    width: 224px;
+    height: 159px;
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+}
+.ul_list_E11 li{
+    margin: 16px 0px;
+}
+
+
+
